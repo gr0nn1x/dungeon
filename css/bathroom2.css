@@ -1,0 +1,62 @@
+#arrowdown {
+    background-image: url("../img/arrowodwn.png");
+height:200px;
+width:200px;
+background-size:200px;
+left:45%;
+top:65%;
+background-repeat:no-repeat;
+position:absolute;
+
+}
+* {user-select:none;}
+body,
+html {
+  height: 100%;
+  margin: 0;
+  user-select:none;
+}
+#background {
+  background-image: url("../img/bathroom2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 100%;
+  width: 100%;
+  text-shadow:
+  -1px -1px 0 white,
+  1px -1px 0 white,
+  -1px 1px 0 white,
+  1px 1px 0 white;
+}
+
+#text {
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+  position:absolute;
+  font-size:50px;
+left:40%;
+top:5%;
+
+}
+
+#key2 {
+
+    background-image:url("../img/key.png");
+    position:absolute;
+width:500px;
+height:500px;
+background-size:500px;
+text-shadow:
+-1px -1px 0 white,
+1px -1px 0 white,
+-1px 1px 0 white,
+1px 1px 0 white;
+left:40%;
+
+
+
+}

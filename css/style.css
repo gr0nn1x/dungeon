@@ -1,0 +1,197 @@
+body,
+html {
+  height: 100%;
+
+  margin: 0;
+}
+#background {
+  background-image: url("../img/kiosek1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 100%;
+  width: 100%;
+}
+
+#stats {
+  font-size: 70px;
+  position: absolute;
+  top: 70px;
+  color: black;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+    1px 1px 0 white;
+}
+
+#playerluck {display:none}
+
+#player {
+  background-image: url("../img/kratos.png");
+  height: 650px;
+  width: 450px;
+  background-repeat: no-repeat;
+  margin-left: 20%;
+  position: absolute;
+  margin-top: 12%;
+  background-size: 450px;
+}
+#explore {
+  background-image: url("../img/sign.png");
+  font-size: 50px;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 75%;
+  top: 60%;
+  background-size: 300px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#hat1 {
+  background-image: url("../img/helmet1.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  font-size: 30px;
+  display: inline-block;
+}
+#weapon1 {
+  background-image: url("../img/sword1.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  font-size: 30px;
+  display: inline-block;
+}
+#hat2 {
+  background-image: url("../img/helmet2.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  font-size: 30px;
+  display: inline-block;
+}
+#weapon2 {
+  background-image: url("../img/sword2.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  font-size: 30px;
+  display: inline-block;
+}
+#hat3 {
+  background-image: url("../img/helmet3.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  font-size: 30px;
+  display: inline-block;
+}
+#weapon3 {
+  background-image: url("../img/sword3.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  font-size: 30px;
+  display: inline-block;
+}
+#hat4 {
+  background-image: url("../img/helmet4.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  font-size: 30px;
+  display: inline-block;
+}
+#weapon4 {
+  background-image: url("../img/sword4.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  font-size: 30px;
+  display: inline-block;
+}
+#hat5 {
+  background-image: url("../img/helmet5.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  font-size: 30px;
+  display: inline-block;
+}
+#weapon5 {
+  background-image: url("../img/sword5.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  font-size: 30px;
+  display: inline-block;
+}
+#hat6 {
+  background-image: url("../img/helmet6.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  font-size: 30px;
+  display: inline-block;
+}
+#weapon6 {
+  background-image: url("../img/sword6.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  font-size: 30px;
+  display: inline-block;
+}
+#weapon7 {
+  background-image: url("../img/sword7.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  font-size: 30px;
+  display: inline-block;
+}
+#weapon8 {
+  background-image: url("../img/sword8.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  font-size: 30px;
+  display: inline-block;
+}
+#armor {
+  position: absolute;
+  left: 50%;
+  width: 1000px;
+  color: black;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+    1px 1px 0 white;
+}
+#pribeh {
+  color: black;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+    1px 1px 0 white;
+  font-size: 40px;
+position:absolute;
+top:87%;
+
+
+}

@@ -1,0 +1,88 @@
+#arrowright {
+  background-image: url("../img/arrowright.png");
+  height: 200px;
+  width: 200px;
+  background-size: 200px;
+  left: 87%;
+  top: 40%;
+  background-repeat: no-repeat;
+  position: absolute;
+  font-size:100px;
+}
+* {user-select:none;}
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+#background {
+  background-image: url("../img/room1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 100%;
+  width: 100%;
+  text-shadow:
+  -1px -1px 0 white,
+  1px -1px 0 white,
+  -1px 1px 0 white,
+  1px 1px 0 white;
+}
+
+#nadpis {
+  font-size: 100px;
+  text-align: center;
+}
+
+
+#esch {
+  background-image: url("../img/esch.png");
+  height: 600px;
+  width: 600px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 550px;
+  left: 5%;
+}
+#secret {
+font-size:70px;
+position: absolute;
+left:38%;
+top:50%;
+display:none;
+}
+
+#text {
+font-size:50px;
+position:absolute;
+left:35%;
+
+
+}
+#text2 {
+  font-size:50px;
+  position:absolute;
+  left:35%;
+  top:30%;
+  
+  }
+
+  #alpa {
+        position:absolute;
+        left:35%;
+        background-image: url("../img/alpa.png");
+        background-size:600px;
+        height: 600px;
+  width: 600px;
+  transition:.5s;
+  }
+  
+  #alpa:hover {
+    background-size:650px;
+    height: 650px;
+width: 650px;
+transition:.5s;
+
+  }
+
+  #penize {font-size:50px;}

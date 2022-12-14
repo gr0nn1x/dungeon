@@ -1,0 +1,112 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  user-select:none;
+}
+#background {
+  background-image: url("../img/bathroom.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 100%;
+  width: 100%;
+  text-shadow:
+  -1px -1px 0 white,
+  1px -1px 0 white,
+  -1px 1px 0 white,
+  1px 1px 0 white;
+}
+* {user-select:none;}
+#enemy {
+  background-image: url("../img/tomáš.png");
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 400px;
+  left: 65%;
+}
+#text {
+  font-size: 60px;
+  position: absolute;
+  top: 73%;
+  left: 0%;
+}
+#player {
+  background-image: url("../img/kratos.png");
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 450px;
+  left: 300px;
+  transition:.05s;
+}
+
+#playerhp {font-size:50px;
+top:550px;
+left:430px; 
+position:absolute;
+}
+#enemyhp {font-size:50px;
+    top:550px;
+    left:70%;
+    position:absolute;}
+
+#attack {
+    background-image: url("../img/blades.jpg");
+    height: 100%;
+    width: 100%;
+    position: absolute;
+background-size:250px;
+background-repeat: no-repeat;
+left:50%;
+top:80%;
+font-size:50px;
+}
+
+#arrowright {
+    background-image: url("../img/arrowodwn.png");
+height:200px;
+width:200px;
+background-size:200px;
+left: 45%;
+top:70%;
+background-repeat:no-repeat;
+position:absolute;
+display:none;
+}
+#arrowup {
+    background-image: url("../img/arrowup.png");
+height:200px;
+width:200px;
+background-size:200px;
+left:45%;
+top:3%;
+background-repeat:no-repeat;
+position:absolute;
+display:none;
+}
+#arrowleft {
+    background-image: url("../img/arrowleft.png");
+height:200px;
+width:200px;
+background-size:200px;
+left:0;
+top:35%;
+background-repeat:no-repeat;
+position:absolute;
+display:none;
+}
+#arrowdown {
+    background-image: url("../img/arrowodwn.png");
+height:200px;
+width:200px;
+background-size:200px;
+left:45%;
+top:65%;
+background-repeat:no-repeat;
+position:absolute;
+display:none;
+}

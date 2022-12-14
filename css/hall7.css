@@ -1,0 +1,39 @@
+#arrowdown {
+    background-image: url("../img/arrowodwn.png");
+height:200px;
+width:200px;
+background-size:200px;
+left:45%;
+top:70%;
+background-repeat:no-repeat;
+position:absolute;
+}
+* {user-select:none;}
+#arrowleft {
+    background-image: url("../img/arrowleft.png");
+height:200px;
+width:200px;
+background-size:200px;
+left:30%;
+top:10%;
+background-repeat:no-repeat;
+position:absolute;
+}
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+#background {
+  background-image: url("../img/hall7.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: bottom;
+  height: 100%;
+  width: 100%;
+  text-shadow:
+  -1px -1px 0 white,
+  1px -1px 0 white,
+  -1px 1px 0 white,
+  1px 1px 0 white;
+}
